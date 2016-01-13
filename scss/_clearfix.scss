@@ -1,0 +1,18 @@
+/*---
+title:   Clearfix Mixin
+section: Mixin
+---
+
+Contain floats.
+*/
+@mixin u-clearfix() {
+  *zoom: 1;
+  &::before,
+  &::after {
+    display: table;
+    content: ' ';
+  }
+  &::after {
+    clear: both;
+  }
+}
