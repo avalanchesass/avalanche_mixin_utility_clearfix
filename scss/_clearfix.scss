@@ -4,6 +4,16 @@ section: Mixin
 ---
 
 Contain floats.
+
+```css
+u-clearfix()
+```
+
+```css
+.foo {
+  @include u-clearfix();
+}
+```
 */
 @mixin u-clearfix() {
   *zoom: 1;
