@@ -1,5 +1,5 @@
 # avalanche_mixin_utility_clearfix
-Contain floats.  
+Contain floats  
 https://github.com/avalanchesass/avalanche_mixin_utility_clearfix
 
 ### Author
